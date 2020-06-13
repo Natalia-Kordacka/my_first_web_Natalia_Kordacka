@@ -1,0 +1,243 @@
+
+body{
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+   
+}
+
+hr{
+    height: 2px;
+    border-width: 0;
+    background-color:lightgray;
+    margin-bottom: 5%;
+    width: 85%;
+}
+    
+
+/* navigation bar */
+
+
+    
+nav{
+    background: #f4f4f4;
+    min-height: 50px;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 12pt;
+}
+
+nav a:hover{
+    background-color: #d3d1d1;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    min-width: 100px;
+    justify-content: center;
+    flex-basis: 780px;
+    flex-wrap: wrap;
+    padding-left: 0%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+
+
+
+/* banner */ 
+
+.banner-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    min-width: 600px;
+    padding: 40px;
+    margin: 60px auto;
+}
+
+.banner {
+    margin: 0 auto;
+}
+
+
+/* first section -about me- */
+
+
+
+h2{
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: 18pt;
+}
+
+p, li{
+    font-weight: 300;
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    line-height: 24px;
+}
+
+
+
+.about-container{
+    display: flex;
+    flex-basis: 1 1 0;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    line-height: 24px;
+    flex-wrap: wrap;   
+}
+
+
+
+#main-paragraph, #main-header{
+    padding-left: 20px;
+    margin: 0;
+}
+
+#main-paragraph{
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+#main-header{
+    padding-bottom: 30px;
+   
+}
+
+.paragraph-container{
+   margin-top: 15%;
+   margin-left: 5%;
+}
+
+
+
+/* second section -experience- */
+
+#experience{
+    margin: 0 3% 0 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: center;
+}
+
+#skills{
+    margin-bottom: 4%;
+}
+
+#interests{
+    margin-bottom: 8%;
+}
+
+
+
+/* third section -interests- */
+
+#interests h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section {
+    display: block;
+}
+
+#interests ul{
+    list-style-type: none;
+    display: flex;
+    min-width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+}
+
+#interests li{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+i{
+    font-size: 300%;
+    color: #7a7979;
+    margin: 5px auto;
+}
+
+/* fourth section -portfolio- */
+
+#portfolio{
+    margin: 90px 0 100px 0;
+}
+#portfolio h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+footer{
+    background: #f4f4f4;
+    min-height: 50px;
+    padding: 0px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    min-width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+footer li{
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 1367px) {
+    .about-container {
+        justify-content: center;
+  }
+
+
+//@media screen and (max-width: 1367px) {
+    #portfolio{
+        display: flex;
+        min-width: 320px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+//@media screen and (max-width: 1367px) {
+    .nav ul {
+        
+        flex-wrap: wrap;
+  }
