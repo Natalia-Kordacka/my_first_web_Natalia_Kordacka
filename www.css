@@ -85,7 +85,7 @@ h2{
     font-size: 18pt;
 }
 
-p, li{
+p, span, li{
     font-weight: 300;
     font-family: 'Montserrat';
     font-size: 12pt;
